@@ -39,6 +39,42 @@ npm i unc-cli -g
 unc create <project-name>
 ```
 
+## Development
+
+- step1, clone code
+
+```sh
+git clone git@github.com:taojunnan/unc-cli.git
+```
+
+- step2, install dependencies
+
+```sh
+cd unc-cli
+npm install
+```
+
+- step3, [option]change command name  
+
+open `package.json`, replace `commandName` and `bin.unc`to your command name  
+
+- step4, [link package](https://docs.npmjs.com/cli/v6/commands/npm-link)
+
+```sh
+npm link
+```
+
+- step5, run
+
+```sh
+unc -V
+# or
+<your command name> -V
+```
+
+
+
+
 ## License
 
 [MIT](./LICENSE)
