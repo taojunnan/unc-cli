@@ -2,7 +2,7 @@
 
 Command line tools that create project from gitlab group template.
 
-![npm](https://img.shields.io/npm/v/unc-cli?style=flat-square)  ![NPM](https://img.shields.io/npm/l/unc-cli?style=flat-square)
+[![Version][version-badge]][package]   [![MIT License][license-badge]][license]
 
 ## Installation
 
@@ -75,3 +75,10 @@ unc -V
 ## License
 
 [MIT](./LICENSE)
+
+
+<!-- badges -->
+[version-badge]: https://img.shields.io/npm/v/unc-cli?style=flat-square
+[package]: https://www.npmjs.com/package/unc-cli
+[license-badge]: https://img.shields.io/npm/l/unc-cli?style=flat-square
+[license]: https://opensource.org/licenses/MIT
