@@ -1,10 +1,8 @@
 # unc-cli
 
----
-
 Command line tools that create project from gitlab group template.
 
-![npm](https://img.shields.io/npm/v/unc-cli?style=flat-square)![NPM](https://img.shields.io/npm/l/unc-cli?style=flat-square)
+![npm](https://img.shields.io/npm/v/unc-cli?style=flat-square)  ![NPM](https://img.shields.io/npm/l/unc-cli?style=flat-square)
 
 ## Installation
 
