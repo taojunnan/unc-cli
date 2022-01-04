@@ -1,6 +1,6 @@
 {
   "name": "unc-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI to create project from gitlab group template.",
   "exports": "./main.js",
   "commandName": "unc",
