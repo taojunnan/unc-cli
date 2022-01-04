@@ -56,7 +56,7 @@ npm install
 
 - step3, [option]change command name  
 
-open `package.json`, replace `commandName` and `bin.unc`to your command name  
+	open `package.json`, replace `commandName` and `bin.unc`to your command name  
 
 - step4, [link package](https://docs.npmjs.com/cli/v6/commands/npm-link)
 
@@ -71,9 +71,6 @@ unc -V
 # or
 <your command name> -V
 ```
-
-
-
 
 ## License
 
