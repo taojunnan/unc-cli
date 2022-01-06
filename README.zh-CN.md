@@ -2,7 +2,7 @@
 
 通过命令行从gitlab某个组下拉取模板创建项目。
 
-[![Version][version-badge]][package]   [![MIT License][license-badge]][license]
+[![Version][version-badge]][package]   [![MIT License][license-badge]][license]   [![Download][download-badge]][package]
 
 [English](./README.md) | 简体中文
 
@@ -70,7 +70,7 @@ npm link
 
 ```sh
 unc -V
-# or
+# 或
 <your command name> -V
 ```
 
@@ -87,3 +87,4 @@ unc -V
 [package]: https://www.npmjs.com/package/unc-cli
 [license-badge]: https://img.shields.io/npm/l/unc-cli?style=flat-square
 [license]: https://opensource.org/licenses/MIT
+[download-badge]: https://img.shields.io/npm/dm/unc-cli?style=flat-square
