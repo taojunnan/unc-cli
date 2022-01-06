@@ -74,6 +74,9 @@ unc -V
 <your command name> -V
 ```
 
+## Example
+![example.gif](./public/example.gif)
+
 ## License
 
 [MIT](./LICENSE)
