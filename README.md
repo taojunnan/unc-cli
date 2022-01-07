@@ -8,7 +8,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Installation
 
-```sh
+```bash
 npm i unc-cli -g
 ```
 
@@ -18,7 +18,7 @@ npm i unc-cli -g
 
 + set your gitlab host
 
-  ```sh
+  ```bash
   unc config --set gitlab.url <gitlab host>
   # example
   unc config --set gitlab.url https://gitlab.xxxx.com
@@ -26,7 +26,7 @@ npm i unc-cli -g
   
 + set [gitlab groupId](https://docs.gitlab.com/ee/user/group/) (select and download template from this gitlab group
   
-  ```sh
+  ```bash
   unc config --set gitlab.groupId <groupId>
   ```
   
@@ -37,21 +37,21 @@ npm i unc-cli -g
   ```
 
 ### Now you can run this command to create project👇
-```sh
+```bash
 unc create <project-name>
 ```
 
-## Development
+## Run Locally
 
-- step1, clone code
+- step1, clone the project
 
-```sh
-git clone git@github.com:taojunnan/unc-cli.git
+```bash
+git clone https://github.com/taojunnan/unc-cli.git
 ```
 
 - step2, install dependencies
 
-```sh
+```bash
 cd unc-cli
 npm install
 ```
@@ -62,13 +62,13 @@ npm install
 
 - step4, [link package](https://docs.npmjs.com/cli/v6/commands/npm-link)
 
-```sh
+```bash
 npm link
 ```
 
 - step5, run
 
-```sh
+```bash
 unc -V
 # or
 <your command name> -V
