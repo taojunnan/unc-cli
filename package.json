@@ -13,6 +13,9 @@
     "gitlab",
     "template"
   ],
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./lib"
+  },
   "author": "taojunnan",
   "repository": {
     "type": "git",
@@ -36,5 +39,8 @@
     "ora": "^6.0.1",
     "validate-npm-package-name": "^3.0.0"
   },
-  "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  }
 }

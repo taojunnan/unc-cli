@@ -24,7 +24,7 @@ program.version(`${name}-cli ${packageJson.version}`)
 // 对于一些未知命令，输出帮助提示
 program.on('command:*', ([cmd]) => {
   program.outputHelp()
-  console.log(`  ` + chalk.red(`Unknown command ${chalk.yellow(cmd)}.`))
+  console.log('  ' + chalk.red(`Unknown command ${chalk.yellow(cmd)}.`))
   console.log()
   suggestCommands(cmd)
   process.exitCode = 1
@@ -47,7 +47,7 @@ enhanceErrorMessages('unknownOption', optionName => {
 })
 
 enhanceErrorMessages('optionMissingArgument', (option, flag) => {
-  return `Missing required argument for option ${chalk.yellow(option.flags)}` + (flag ? `, got ${chalk.yellow(flag)}` : ``)
+  return `Missing required argument for option ${chalk.yellow(option.flags)}` + (flag ? `, got ${chalk.yellow(flag)}` : '')
 })
 
 // 写在最后，固定写法，必须
