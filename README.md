@@ -1,6 +1,6 @@
 # unc-cli
 
-Command line tools that create project from gitlab group template.
+A CLI that download gitlab group template to create project.
 
 [![Version][version-badge]][package]   [![MIT License][license-badge]][license]   [![Download][download-badge]][package]
 

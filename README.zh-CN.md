@@ -1,6 +1,6 @@
 # unc-cli
 
-通过命令行从gitlab某个组下拉取模板创建项目。
+通过命令行下载gitlab某个组下的模板来创建项目。
 
 [![Version][version-badge]][package]   [![MIT License][license-badge]][license]   [![Download][download-badge]][package]
 
